@@ -9,14 +9,28 @@ namespace Osztaly_Konyv
 {
     public class Konyv
     {
+        private string leltariSzam;
         private string isbnSzam;
         private string szerzo;
         private string cim;
-        private int _kiadasEv;
+        private long _kiadasEv;
         private string nyelv;
         private bool enciklopediae;
         private char eBook;
         private Random rand = new Random();
+
+
+        public string LeltariSzam
+        {
+            get => leltariSzam;
+            set
+            {
+                if (value.Length < 11)
+                {
+                    throw new Exception();
+                }
+            }
+        }
 
         public string IsbnSzam
         {
@@ -97,11 +111,43 @@ namespace Osztaly_Konyv
             }
         }
 
-        public string Szerzo { get => szerzo; set => szerzo = value; }
+        public string Szerzo
+        {
+            get => szerzo;
+            set {
+                if (value.Length < 6)
+                {
+                    throw new SzerzonemhelyesException();
+                }
+
+            }
+        }
         public string Cim { get => cim; set => cim = value; }
-        public int KiadasEv { get => _kiadasEv; set => _kiadasEv = value; }
-        public string Nyelv { get => nyelv; set => nyelv = value; }
-        public bool Enciklopediae { get => enciklopediae; set => enciklopediae = value; }
+        public long KiadasEv
+        {
+            get => _kiadasEv;
+            set
+            {
+                if (value < 10000 && value > 2023)
+                {
+                    throw new KiadasevenemhelyesException();
+                }
+            }
+        }
+        public string Nyelv
+        {
+            get => nyelv;
+            set
+            {
+                if (value.Length == 0)
+                {
+                    throw new NyelvnemhelyesException();
+                }
+            }
+        }
+        public bool Enciklopediae {
+            get => enciklopediae;
+            set => enciklopediae = value;}
         public char Ebook { get => eBook; set => eBook = value; }
 
         public Konyv()
@@ -109,8 +155,9 @@ namespace Osztaly_Konyv
 
         }
 
-        public Konyv(string isbnSzam, string szerzo, string cim, int kiadasEv, string nyelv, bool enciklopediae, char ebook)
+        public Konyv(string leltariSzam, string isbnSzam, string szerzo, string cim, long kiadasEv, string nyelv, bool enciklopediae, char ebook)
         {
+            LeltariSzam = leltariSzam;
             IsbnSzam = isbnSzam;
             Szerzo = szerzo;
             Cim = cim;

@@ -8,11 +8,19 @@ namespace Osztaly_Konyv
 {
     public class KonyvesPolc
     {
+
+
         List<Konyv> _konyvek=new List<Konyv>();
+
+        Dictionary<string, int> szótár = new Dictionary<string, int>();
+
+      
 
         public void konyvHozzaAdasa(Konyv konyv)
         {
             _konyvek.Add(konyv);
+            //itt kell hozzáadni a dictionary értékéhez a könyvet
+            szótár.Add(konyv.LeltariSzam, _konyvek.IndexOf(konyv));
         }
 
         public void konyvSelejtezese(Konyv konyv)

@@ -1,0 +1,7 @@
+/Users/pejkobalint/Documents/GitHub/c-eloadasok/Osztaly_Konyv/bin/Debug/Osztaly_Konyv.exe.config
+/Users/pejkobalint/Documents/GitHub/c-eloadasok/Osztaly_Konyv/bin/Debug/Osztaly_Konyv.exe
+/Users/pejkobalint/Documents/GitHub/c-eloadasok/Osztaly_Konyv/bin/Debug/Osztaly_Konyv.pdb
+/Users/pejkobalint/Documents/GitHub/c-eloadasok/Osztaly_Konyv/obj/Debug/Osztaly_Konyv.csproj.AssemblyReference.cache
+/Users/pejkobalint/Documents/GitHub/c-eloadasok/Osztaly_Konyv/obj/Debug/Osztaly_Konyv.csproj.CoreCompileInputs.cache
+/Users/pejkobalint/Documents/GitHub/c-eloadasok/Osztaly_Konyv/obj/Debug/Osztaly_Konyv.exe
+/Users/pejkobalint/Documents/GitHub/c-eloadasok/Osztaly_Konyv/obj/Debug/Osztaly_Konyv.pdb
