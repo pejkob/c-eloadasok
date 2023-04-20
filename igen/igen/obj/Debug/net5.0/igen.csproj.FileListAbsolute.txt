@@ -1,0 +1,16 @@
+/Users/pejkobalint/Projects/igen/igen/bin/Debug/net5.0/igen
+/Users/pejkobalint/Projects/igen/igen/bin/Debug/net5.0/igen.deps.json
+/Users/pejkobalint/Projects/igen/igen/bin/Debug/net5.0/igen.runtimeconfig.json
+/Users/pejkobalint/Projects/igen/igen/bin/Debug/net5.0/igen.runtimeconfig.dev.json
+/Users/pejkobalint/Projects/igen/igen/bin/Debug/net5.0/igen.dll
+/Users/pejkobalint/Projects/igen/igen/bin/Debug/net5.0/igen.pdb
+/Users/pejkobalint/Projects/igen/igen/obj/Debug/net5.0/igen.csproj.AssemblyReference.cache
+/Users/pejkobalint/Projects/igen/igen/obj/Debug/net5.0/igen.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pejkobalint/Projects/igen/igen/obj/Debug/net5.0/igen.AssemblyInfoInputs.cache
+/Users/pejkobalint/Projects/igen/igen/obj/Debug/net5.0/igen.AssemblyInfo.cs
+/Users/pejkobalint/Projects/igen/igen/obj/Debug/net5.0/igen.csproj.CoreCompileInputs.cache
+/Users/pejkobalint/Projects/igen/igen/obj/Debug/net5.0/igen.dll
+/Users/pejkobalint/Projects/igen/igen/obj/Debug/net5.0/refint/igen.dll
+/Users/pejkobalint/Projects/igen/igen/obj/Debug/net5.0/igen.pdb
+/Users/pejkobalint/Projects/igen/igen/obj/Debug/net5.0/igen.genruntimeconfig.cache
+/Users/pejkobalint/Projects/igen/igen/obj/Debug/net5.0/ref/igen.dll
